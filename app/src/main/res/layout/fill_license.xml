@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="@drawable/register_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        >
+
+        <ProgressBar
+            android:id="@+id/determinateBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="25"
+            android:layout_below="@+id/toolbar"
+            android:progressDrawable="@drawable/progress_bar_color"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/form_content"
+            android:layout_below="@id/determinateBar">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/determinateBar"
+                android:id="@+id/numero_permis"
+                android:theme="@style/TextLabel"
+
+                android:minHeight="30dp"
+                >
+
+                <EditText
+                    android:id="@+id/numero_permis_value"
+
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="N° de permis :"
+                    android:textColor="#FFF"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/form_container"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/numero_permis">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/last_name_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nom :"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/first_name_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Prénom :"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/address_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Addresse :"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                >
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/city_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ville :"
+                        android:theme="@style/TextLabel"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/postal_code_value"
+                        android:textColor="#FFF"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Code Postal :"
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextLabel">
+                    <EditText
+                        android:id="@+id/province_value"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Province :"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+</LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_below="@id/form_content">
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passer"
+                android:id="@+id/next"
+                android:layout_weight="1"
+                android:background="#EEEEEE"
+
+                />
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sauvegarder"
+                android:id="@+id/apply_fill"
+                android:background="#2196F3"
+                android:layout_weight="1"
+               />
+        </LinearLayout>
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>

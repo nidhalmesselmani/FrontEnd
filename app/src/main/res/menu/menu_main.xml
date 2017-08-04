@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/acceuil"
+        android:id="@+id/bottom_bar_item_one"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:title="@string/profile"
+        android:id="@+id/bottom_bar_item_two"
+        android:icon="@drawable/ic_face"
+        />
+
+    <item android:title="@string/constat"
+        android:id="@+id/bottom_bar_item_three"
+        android:icon="@drawable/ic_car"/>
+
+    <item android:title="@string/historique"
+        android:id="@+id/bottom_bar_item_four"
+        android:icon="@drawable/ic_assignment"
+        />
+    <item android:title="@string/faq"
+        android:id="@+id/bottom_bar_item_five"
+        android:icon="@drawable/ic_info"
+        />
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Switch
+        android:layout_marginTop="30dp"
+        android:id="@+id/blesse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blessé" />
+    <Switch
+        android:layout_marginTop="30dp"
+        android:id="@+id/m_blesse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blessé légère" />
+    <Switch
+        android:layout_marginTop="30dp"
+        android:id="@+id/d_vh_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dégat A" />
+    <Switch
+        android:layout_marginTop="30dp"
+        android:id="@+id/d_vh_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dégat B" />
+    <Switch
+        android:layout_marginTop="30dp"
+        android:id="@+id/temoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="témoins" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="sauvegarder"/>
+</LinearLayout>

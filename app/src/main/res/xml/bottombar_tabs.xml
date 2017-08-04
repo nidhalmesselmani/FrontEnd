@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+<tab
+    id="@+id/tab_acceuil"
+
+    title="Acceuil"
+    icon="@drawable/ic_home"
+ />
+<tab
+    id="@+id/tab_profile"
+
+    title="Profile"
+    icon="@drawable/ic_face"
+/>
+<tab
+    id="@+id/tab_constat"
+    icon="@drawable/ic_car"
+    title="Constat"
+ />
+<tab
+    id="@+id/tab_historique"
+    icon="@drawable/ic_assignment"
+    title="Historique"
+    />
+<tab
+    id="@+id/tab_faq"
+    icon="@drawable/ic_info"
+    title="Historique"
+   />
+</tabs>

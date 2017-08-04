@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan" />
+
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/choix"
+
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="choix"
+        android:textColor="#000"
+        android:textColorHighlight="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        app:met_textColor="#000"
+        app:met_textColorHint="#000"
+        app:met_primaryColor="#000"/>
+</LinearLayout>

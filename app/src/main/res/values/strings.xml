@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">FrontEnd</string>
+    <string name="empty">null</string>
+    <string name="prenom_label">Prénom </string>
+    <string name="name_label">Nidhal </string>
+    <string name="society_label">Societé d\'Assurance</string>
+    <string name="telephone">Télephone</string>
+    <string name="vehicule_1">Vehicule A</string>
+    <string name="vehicule_2">Vehicule B</string>
+
+    <string name="adresse_label">Adresse </string>
+    <string name="agence_label">Agence</string>
+
+    <string name="nom_agence">nom_agence</string>
+    <string name="email_label">Addresse email</string>
+    <string name="contrat_label">Constat</string>
+    <string name="num_police_label">N° police</string>
+    <string name="date_deb">Date Debut :</string>
+    <string name="date_fin">Date Fin :</string>
+    <string name="marque_vehicule_label"> Marque VH :</string>
+    <string name="type_vehicule_label">Type VH :</string>
+    <string name="num_serie_vehicule_label">Num° serie VH :</string>
+    <string name="conducteur_label">Conducteur </string>
+    <string name="circonstances_label">Circonstances</string>
+    <string name="instruction_parag">Mettre une croix (x) dans \nchacune des cases utiles \npour préciser le croquis</string>
+    <string name="stationnement">en stationnement</string>
+    <string name="quittait_stationnement">quittait un stationnement</string>
+    <string name="prenait_stationnement">prennait stationnement</string>
+    <string name="S_parking_parag">sortait d\'un parking, d\'un lieu \n privé, d\'un chemin de terre</string>
+    <string name="E_parking_parag">s\'engageait dans un parking\n, d\'un lieu  privé, d\'un chemin de terre</string>
+    <string name="scan">Scan</string>
+    <string name="acceuil_parag">Groupement des \n assureurs automobiles</string>
+    <string name="cree_profile"> Créer mon profil </string>
+    <string name="create_profile_help">Pour accélerer le processus en cas \nd\'accident </string>
+    <string name="remplir_constat_help">Vous avez eu un accident?</string>
+    <string name="conditions_utilisations">Conditions d\'utilisations</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="profile">Profile</string>
+    <string name="constat">Constat</string>
+    <string name="historique">Historique</string>
+    <string name="faq">FAQ</string>
+    <string name="entrer_qrcode"> Lire le code barre de votre assurance </string>
+    <string name="entrer_info">Entrer les informations du votre assurance</string>
+    <string name="entrer_info_manual"><u>Enter les informations</u></string>
+    <string name="assurer">Assurer :</string>
+    <string name="continuer">Continuer</string>
+    <string name="remplir_constat_amiable">Remplir un Constat amiable</string>
+    <string name="cin">carte d\'identité national</string>
+    <string name="hint_nom">Entrer votre nom</string>
+    <string name="hint_prenom">Entrer votre prenom</string>
+    <string name="hint_addresse">Entrer votre addresse</string>
+    <string name="ville_label">Ville</string>
+    <string name="hint_ville">Entrer votre ville</string>
+    <string name="code_postal">Code postal</string>
+    <string name="hint_code_postal">Entrer votre code postal</string>
+    <string name="province_label">Province</string>
+    <string name="hint_province">Entrer votre province</string>
+    <string name="welcome">WELCOME</string>
+    <string name="hint_email">Entrer votre email</string>
+    <string name="hint_password">Entrer votre password</string>
+    <string name="auth">Authentifier</string>
+    <string name="no_account">N\'a pas de compte? </string>
+    <string name="inscrire">\u0020 S\'inscrire</string>
+    <string name="inscrire_label">Inscrire</string>
+    <string name="enter_mot_passe">Entrer votre mot de passe</string>
+    <string name="conf_mot_passe">Confirmer votre mot de passe</string>
+    <string name="a_compte"> Avez-vous un compte?</string>
+    <string name="auth_compt">\u0020 Authentifier</string>
+    <string name="mot_passe_o">Mot de passe Oublier?</string>
+    <string name="soumettre">Soumettre</string>
+    <string name="r_auth">Retourner à la page de connexion</string>
+    <string name="profile_lorem">Nidhal47</string>
+    <string name="email_lorem">\@gmail.com</string>
+    <string name="lorem_parag">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="long_parag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+
+
+
+    <!-- Errors -->
+
+    <string name="err_email"> The email must be a valid email</string>
+    <string name="err_password"> The password must be at least 6 characters </string>
+
+
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">434822516900130</string>
+
+    <string name="fb_login_protocol_scheme">fb434822516900130</string>
+    <string name="entrer_nom">Entrer votre nom</string>
+    <string name="enter_email">Entrer votre email</string>
+    <string name="modify_profile">modifié votre profile</string>
+    <string name="welcome_text"> Bonjour </string>
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+</resources>
